@@ -1,0 +1,40 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+CHANGED FILE
+
+Documents:  nRF-Command-Line-Tools_10_12_2_Installer.exe
+            nRF-Command-Line-Tools_10_12_2_Installer_64.exe
+            pynrfjprog-10.12.2.zip
+            nRF-Command-Line-Tools_10_12_2_Linux-i386.tar.gz
+            nRF-Command-Line-Tools_10_12_2_Linux-amd64.tar.gz
+            nRF-Command-Line-Tools_10_12_2_OSX.tar
+
+Location:   All nRF SOC / SIP devices and devkits
+            / Table: SOFTWARE, five entries, one for each.
+
+Code:       nRF-Command-Line-Tools-Win32    ->  nRF-Command-Line-Tools_10_12_2_Installer.exe
+            nRF-Command-Line-Tools-x64      ->  nRF-Command-Line-Tools_10_12_2_Installer_64.exe
+            nRF-Pynrfjprog                  ->  pynrfjprog-10.12.2.zip     
+            nRF-Command-Line-Tools-Linux32  ->  nRF-Command-Line-Tools_10_12_2_Linux-i386.tar.gz
+            nRF-Command-Line-Tools-Linux64  ->  nRF-Command-Line-Tools_10_12_2_Linux-amd64.tar.gz
+            nRF-Command-Line-Tools-OSX      ->  nRF-Command-Line-Tools_10_12_2_OSX.tar
+            
+Name:       nRF toolset installer for Windows (JLinkARM, JLink CDC, nRFjprog, and mergehex)
+Name:       nRF toolset installer for Windows 64 bit (JLinkARM, JLink CDC, nRFjprog, and mergehex)
+Name:       Python binding for nrfjprog libraries. Only usable in Python 2.7, 3.5, 3.6, 3.7, 3.8 in Windows, Linux, and OSX.
+Name:       nRF toolset tar for Linux 32-bit (nrfjprog and mergehex)
+Name:       nRF toolset tar for Linux 64-bit (nrfjprog and mergehex)
+Name:       nRF toolset tar for OSX (nrfjprog and mergehex)
+
+Version:  10.12.2
+
+Changelog from 10.12.1 to 10.12.2:
+nRF-Command-Line-Tools-Win32    SHA256: 3164BE20329DC11C83952FAAD5D7000D30DE2E980F837B75D49B291A55E7AEAE
+nRF-Command-Line-Tools-x64      SHA256: 2DDE90C888D8A4F12B44CEEAEA1286F6D39AFCEC560A3793F4B5693671C2ADB9
+nRF-Pynrfjprog                  SHA256: 98B347ADC08A7CC1439BF4A538B961BA0142D7E72286F99F4AE9ECE0B329C5A1
+nRF-Command-Line-Tools-Linux32  SHA256: 6B4133C9C2F70D6C4436491435E3BA158A6AB426EEEBDDBDAEACEC6253C85429
+nRF-Command-Line-Tools-Linux64  SHA256: B30170134040EF5DCA9528BB95711B171C5D849EE54529F5C7E2AFD49AC5E7CC
+nRF-Command-Line-Tools-OSX      SHA256: 8C7E7C19AF5A367CC0DA7A43ABDBACD87D71BE1DDD626658C4274DA318483436
+
+- (mergehex) Fixed issue where merging hex files could produce sections with conflicting data, rendering the output hex file invalid.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
