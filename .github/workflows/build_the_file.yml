@@ -16,4 +16,9 @@ jobs:
         uses: actions/checkout@v2
       
       - name: See the content
-        run: ls -la ${{ github.workspace }}
+        run: |
+          if [ ! -f doxygen-1.9.2.tar.xz ]; then wget https://github.com/doki-nordic/test-actions-playground/raw/doxygen-ubuntu-bins/doxygen-1.9.2.tar.xz || true; fi
+          if [ ! -f doxygen-1.9.2.tar.xz ]; then wget https://www.doxygen.nl/files/doxygen-1.9.2.linux.bin.tar.gz || true; fi
+          tar -xf doxygen-1.9.2.tar.*
+          ls doxygen-1.9.2/
+          echo $PATH
