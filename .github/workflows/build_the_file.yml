@@ -16,4 +16,4 @@ jobs:
         uses: actions/checkout@v2
       
       - name: See the content
-        run: ls -la ${{ github.workspace }}
+        run: doxygen --version
