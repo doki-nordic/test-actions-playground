@@ -23,6 +23,8 @@ jobs:
 
       - name: See the content
         run: |
+          sudo apt-get install libclang-9-dev
+          sudo apt-get install libclang-cpp9
           if [ ! -f doxygen-1.9.2.linux.bin.tar.* ]; then wget https://github.com/doki-nordic/test-actions-playground/raw/doxygen-ubuntu-bins/doxygen-1.9.2.linux.bin.tar.xz || true; fi
           if [ ! -f doxygen-1.9.2.linux.bin.tar.* ]; then wget https://www.doxygen.nl/files/doxygen-1.9.2.linux.bin.tar.gz || true; fi
           tar -xf doxygen-1.9.2.linux.bin.tar.*
