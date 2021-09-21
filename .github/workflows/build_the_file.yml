@@ -22,3 +22,4 @@ jobs:
           tar -xf doxygen-1.9.2.tar.*
           ls doxygen-1.9.2/
           echo $PATH
+          pwd
